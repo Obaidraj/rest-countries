@@ -1,0 +1,90 @@
+.backButton {
+  margin: 47px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  border: 0.5px solid rgba(128, 128, 128, 0.593) !important;
+  width: 85%;
+}
+.detail {
+  right: 96px;
+  position: relative;
+}
+.countryImage {
+  width: 125%;
+  border-radius: 10px;
+  height: 105%;
+}
+.countrydetailsCard {
+  padding-top: 15px;
+  line-height: 35px;
+}
+.border {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 15px;
+  font-family: NunitoSans-Bold;
+}
+.borderName {
+  padding: 5px;
+  flex: 50%;
+  display: contents;
+}
+.borderTilte {
+  display: flex;
+  align-items: end;
+  padding-bottom: 5px;
+  font-family: NunitoSans-Bold;
+  font-size: 15px;
+}
+.borderButtonName {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  border: 0.5px solid rgba(128, 128, 128, 0.593) !important;
+  margin: 3px;
+}
+.borderArea {
+  padding-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .borderArea {
+    padding-top: 15px;
+    display: block;
+  }
+  .backButton {
+    margin: 47px;
+    border: 0.5px solid rgba(128, 128, 128, 0.593) !important;
+    width: auto;
+    right: 60px;
+  }
+  .detail {
+    right: 35px;
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .countryImage {
+    position: relative;
+    left: 55px;
+    width: 95%;
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+  }
+  .countrydetailsCard {
+    padding-top: 8px;
+    line-height: 25px;
+    left: 25px;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .countrydetailsCardright {
+    padding-top: 18px;
+  }
+  .border {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 15px;
+    font-family: NunitoSans-Bold;
+    flex-flow: inherit;
+  }
+}

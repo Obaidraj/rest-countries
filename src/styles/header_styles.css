@@ -1,0 +1,72 @@
+.headerBar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.searchBar {
+  display: flex;
+  justify-content: space-around;
+  right: 82px;
+  position: relative;
+}
+.searchField {
+  border: none;
+  box-shadow: 5px 5px 9px 0px hsl(209, 23%, 22%);
+}
+.searchInput > input {
+  background-color: hsl(209, 23%, 22%);
+  color: aliceblue;
+}
+.searchInput > input::-webkit-input-placeholder {
+  color: hsl(0, 0%, 52%);
+}
+.selectFilter {
+  position: relative;
+  width: 183px;
+}
+.selectFilterDark > div {
+  background-color: hsl(209, 23%, 22%) !important;
+  color: aliceblue !important;
+  border: none !important;
+}
+.selectFilterDark > div :nth-child(2) {
+  color: hsl(0, 0%, 52%) !important;
+}
+.selectFilterDark :nth-child(2) {
+  color: hsl(0, 0%, 52%) !important;
+}
+.dropdownItems {
+  background-color: hsl(209, 23%, 22%);
+  color: yellow !important;
+}
+.dropdownItems > div > :nth-child(2) > div > div > div > div {
+  color: hsl(0, 0%, 98%) !important;
+  background-color: hsl(209, 23%, 22%) !important;
+}
+.dropdownItems > div > :nth-child(2) > div > div > div > div:hover {
+  color: hsl(0, 0%, 98%) !important;
+  background-color: hsl(207, 26%, 17%) !important;
+}
+.selectdropdownFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 182px;
+}
+@media only screen and (max-width: 600px) {
+  .searchBar {
+    display: flex;
+    justify-content: space-around;
+    right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+  }
+  .selectFilter {
+    position: relative;
+    width: 183px;
+    top: 15px;
+    left: -256px;
+  }
+}

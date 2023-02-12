@@ -1,0 +1,35 @@
+.homeBody {
+  display: flex;
+  justify-content: space-around;
+  width: 91.5%;
+  position: relative;
+  left: 96px;
+  height: 85%;
+  overflow-y: auto;
+}
+.countryCard {
+  width: 280px;
+  margin: 15px;
+  cursor: pointer;
+
+  border: none;
+}
+.countryCardMeta > div > div {
+  color: white !important;
+}
+@media only screen and (max-width: 600px) {
+  .countryCard {
+    width: 290px;
+    left: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .homeBody {
+    top: 20px;
+    position: relative;
+    left: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 65vh;
+  }
+}
